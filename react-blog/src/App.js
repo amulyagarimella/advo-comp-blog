@@ -9,7 +9,7 @@ function App() {
       <div>
         <Routes>
         <Route element={<AllPosts/>} path="/" exact />
-        <Route element={<OnePost/>} path="/one" />
+        <Route element={<OnePost/>} path="/:slug" />
         </Routes>
       </div>
     </BrowserRouter>
